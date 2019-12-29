@@ -1,0 +1,49 @@
+These are guidelines not rules.
+
+:: ENVIROMENT
+
+Prefabs its sources used to build the game world.
+Any prop that is static, that is: no special interaction with the player.
+
+Examples: 
+Tables, Lamps, Walls, Plants, Waterfalls
+
+:: ARCHITECTURE
+Any prefab used to build a level. Commonly solid objects.
+
+:: NATURE
+Prefabs of plants. Used to add detail. Water bodies.
+
+:: DECORATION
+Prefabs of furnitures, tables, barrels, stains.
+
+:: FOLDER STRUCTURE
+Enviroment/
+    ../TypeName/            (Can be other than the 3 above)
+        Table.prefab        (Drag and drop the scene)
+        Lamp.prefab
+        Barrel.prefab
+        ... 
+        ../Table/           (Name of the prefab)
+            Table.mat           (Material)
+            Table.fbx           (Mesh)
+            Table_albedo.png    (Textures)
+            Table_normal.png    (Textures)
+            ...
+
+        ../Lamp/
+            ...
+           
+           
+:: MORE INFO
+- If needed instead of 'Architecture/' make a folder with the level name.
+Ex: Enviroment/Level1_Beach/
+
+- If two or more prefabs use the same assets use a correct name for the
+prefab.
+Ex: Table_Short.prefab Table_Large.prefab Their folder should be ../Table/
+
+
+:: THE OTHER FOLDERS
+'Physical Materials' and 'General Materials' are here because
+I couldn't find another place for them :(

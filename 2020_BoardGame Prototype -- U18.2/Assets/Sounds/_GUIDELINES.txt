@@ -1,0 +1,45 @@
+These are guidelines not rules
+
+Files must end with the type of sound clip they represent:
+Examples:
+clip_name_BGM.ogg
+ClipName_BGS.mp3
+Clip name SE.wav
+
+Case combination and format are irrelevant for now.
+
+:: AUDIO MIXER
+The audio mixer already contains groups for the following sound types:
+BGM - BGS - SE - VOICES
+
+
+:: SE - Sound Effects
+SE : Sound Effect, short sounds for interfaces and visual effects
+Try to describe the sound on the naming, also use folders for different
+categories if needed.
+SE/UI/Selection_Clic_SE.wav
+SE/HealthUp_SE.mp3
+
+
+:: BGM - BackGround Music
+BGM : BackGroud Music, music to be used in game scenes
+For example and overworld theme or the title screen music, by preference
+loopable.
+
+
+:: BGS - BackGround Sound
+BGS : BackGround Sound, sound that can be looped to add ambiance, they are
+subtle and can sometimes be looped.
+for example: blowing wind, a riverside, birds in the forest. 
+
+
+:: VOICES
+Should be in Characters under its own character: Characters/ActorName/Sounds/
+Grunts and voices comming from characters when getting hurt, jumping or 
+falling. Enemies are also characters.
+
+Naming examples:
+ActorName_Jump1_VO.ogg
+Moblin_Hurt2_VO.mp3
+
+Other grunts that have no character representation are instead Sound Effects.

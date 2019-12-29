@@ -1,0 +1,6 @@
+These are guidelines not rules
+
+:: DATABASE
+
+Files and objects that will be used in game are stored here.
+Scriptable Objects for example, and configuration files.

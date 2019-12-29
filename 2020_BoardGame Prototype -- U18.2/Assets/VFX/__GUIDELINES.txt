@@ -1,0 +1,57 @@
+These are guidelines not rules.
+
+
+:: VFX
+Any Visual Effect.
+
+- Sounds go should go in Sounds/SE/YourEffect.wav
+
+- Any code that is used to trigger the effect should be here
+*unless* the purpose of the script is more than show the effect.
+E.g. It also deals damage, or controls another script inside Code/
+
+
+:: TEXTURES FOLDER
+If you think that your texture could be reused for other effects, or is a
+generic texture (like noises), put it in this folder:
+
+VFX/_Textures/YourNoiseTexture.png
+
+
+:: FOLDER STRUCTURE
+
+This varies a lot from effect to another just try to keep a good structure :/
+
+-  Custom Post Process
+VFX/
+    ../PostProcess/
+        ColorShift.shader
+        ColorShift.mat
+        ...
+        
+        
+- Amplify Functions
+VFX/
+    ../AmpFunctions/
+        YourFunction.asset
+        
+
+- Shader + Material + Prefab:
+VFX/
+    ../ShaderName/ (Use the name of the shader)
+    
+        RedExplosion.prefab
+        
+        AlphaCut.shader
+        Explosion.mat
+       
+       
+- NO shader; particles prefab + material + mesh
+VFX/
+    ../PrefabName/
+        CollectBonusFX.prefab
+        
+        CollectParticles.mat
+        Collect_Trails.fbx
+        
+        

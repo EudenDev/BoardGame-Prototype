@@ -1,0 +1,56 @@
+These are guidelines not rules
+
+:: CHARACTERS
+
+- Prefabs for each actor/character should go inside: 
+Characters/CharacterName/ActorName.prefab
+- Enemy troops prefabs should go on this level.
+- Enemies are also chracters.
+- Voices for each character should go inside Characters/ActorName/Sounds/
+
+The reason Player folder begins with an underscore "_" it's so it'll
+appear as the first folder.
+
+:: MODELS & ANIMATIONS
+
+- MODEL FILE NAMING:
+model_name.fbx
+
+- ANIMATED MODEL NAME:
+model_name@Idle.fbx
+
+- ANIMATION CLIP NAME:
+model_name_Walk.anim
+
+
+:: EXAMPLE FOLDER STRUCTURE
+
+Characters/
+    ActorName/
+        Actor.prefab
+        ActorRelated.prefab
+        
+        Animations/
+            PlayerAnimator.controller
+            Actor_Jump.anim
+            etc.
+            
+        Materials/
+            Actor.mat
+        
+        Meshes/
+            Actor@Idle.fbx
+            Actor@Walk.fbx
+            etc.
+            
+        Sounds/
+            Actor_Hurt_VO.wav
+            
+        Textures/
+            Actor_Albedo.png
+            etc.
+            
+:: SOUNDS
+ONLY VOICES should be inside it's character, sounds like stepping, kicks,
+attacks and so on, go in Sounds/SE
+If a sound is really exclusive to that character, it IS a voice.

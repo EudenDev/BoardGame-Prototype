@@ -1,0 +1,157 @@
+﻿    - - -  C O D I N G   C O N V E N T I O N  - - -
+    
+Some rules and tips to follow
+
+:: UNDER USINGS PUT YOUR NAME, EXAMPLE:
+
+using UnityEngine;
+// AUTHOR NAME
+
+class Example : OtherClass
+...
+
+You can also give credit to another author, 
+or add a hyperlink to the source code.
+
+
+:: FIELDS & PROPERTIES:
+public -> camelCase
+private -> camelCase, _underThenCamel
+const, readonly -> UPPER_CASE
+properties -> camelCase, PascalCase (depends on your IDE)
+
+
+:: OTHER:
+functions, classes, structs, enums -> PascalCase
+interfaces -> INameOfInterface ('I' in front of the name) 
+coroutines -> _NameOfCoroutine
+
+
+:: SINGLETON ACCESS:
+    ClassName.(AnyOfTheFollowing)
+Singleton, Current, Main
+singleton, current, main
+
+
+:: BASIC SINGLETON:
+public static ClassExample singleton {private set; get;}
+void Awake () {
+    singleton = this;
+}
+
+
+:: WORK NOTES:
+Paste this if needed under your script (after all your code).
+If you desire, top most line has highest priority.
+
+#region Work Notes
+    /*
+        -- To_Do ; // Done ; == ToTest ; ++ Idea
+
+        -- Example of task to be done.
+        ** Feature in code but hasn't been tested yet.
+        // This is done and working.
+        ++ Another way of doing something // Result notes about the idea...
+    */
+#endregion
+
+
+:: INLINE NOTES:
+Notes added inside the code, this is just a suggestion it only needs to be
+clear for another reader.
+
+// TODO: Tasks to be done here, code to be added later
+// NOTE: Notes for other users, warnings, usage notes for this piece
+// FIXME: Known bug, description of how to fix it
+// OPTIMIZE: Reminder that there's a more optimal way to do it
+
+
+:: SECTION NAMING EXAMPLES:
+Use one of this to represent a new section on your scripts, regions are foldable.
+
+// :: Public references
+// -- Section for jumping
+// - The code below does a funny thing...
+
+#region Section Name
+    (some code inside...)
+#endregion
+
+
+:: TIPS
+1 -- Declare variables close to their usage:
+
+    //:: Missile Related
+    public GameObject prefab;
+    public float speed;
+    private rigidbody prefab_Rb;
+
+    //:: Player Movement Related
+    public float maxSpeed = 42f;
+    private float currentSpeed;
+    ...etc.
+
+2 -- Use complete names instead of abbreviations
+    public float maxMissileDistance; // OK!
+    public float maxM_Dst; // NOT OK
+
+3 -- Functions should do one thing (avoid long functions and unrelated effects)
+
+    // NOT OK:
+    Update()
+    {
+        Movement();
+    }
+    void Movement()
+    {
+        // - Move player 
+        // - Jump, Crouch and more unrelated actions.
+    }
+
+    // OK:
+    Update()
+    {
+        if(canMove){ Movement();}
+        if(doJump){ Jump();} 
+    }
+
+4 -- Use inline comments to remember what your function should do
+    // - This function uses force... and the player should... then...
+    void Jump()
+    {
+        // TODO: Fix the movement in the air
+        // - Prepare lauch
+        ...code
+        // - Pass force to player
+        ...code
+        // - Check velocity
+        ... code
+    }
+
+5 -- Avoid Zombie code
+    That is code that has been commented out, the problem comes that it will 
+    slow down the reading of the code. Worst case, those line could 
+    'come back to life' if someone comments back that piece.
+
+    void CheckGround()
+    {
+        /* // - Old Method
+        ...code
+        ...code
+        ...code */
+        
+        // - New method
+        ..code
+    }
+    
+6 -- Do not use Get Component per frame
+
+
+:: CHANGE LOG
+[jan2020]   v1.2.0 
+[mar2019]   v1.1.1 Work notes now go below your code
+[feb2019]   v1.1.0 Code tips and text fixes
+[jan2019]   v1.0.0 Only coding convention
+[29.11.18]  v0.2.0 Sounds Conventions 
+[29.11.18]  v0.1.1 More explanations
+[10.09.18]  v0.1.0 Script Conventions

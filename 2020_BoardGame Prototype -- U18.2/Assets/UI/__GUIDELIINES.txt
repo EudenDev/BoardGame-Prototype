@@ -1,0 +1,11 @@
+These are guidelines not rules
+
+:: UI (USER INTERFACE)
+
+Prefabs that are used for UI should be here.
+
+Prefer putting scripts inside ASSETS/CODE if they
+depend on other scripts.
+
+:: FONTS
+Store customs fonts here.

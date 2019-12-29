@@ -1,0 +1,48 @@
+These are guidelines not rules.
+
+:: PROPS
+Only interactive props should be here.
+
+Any prop that is static, or has no complex interaction is
+a decoration, and they should go in Enviroment/
+
+
+:: FOLDER STRUCTURE
+May change with project complexity
+
+- For a simple project:
+
+Props/
+    
+    HealthBonus.prefab  (So it's easy to drag and drop to the scene)
+    
+    ../HealthBonus/    (Other names: Source/Editables/Supplies)
+        Bonus.fbx
+        HealthBonus.mat
+        BonusTexture.png
+            
+            
+- For a complex project:
+
+Props/
+    ../BreakebleBox/    (Name of your prop)
+    
+        Box.prefab
+        BoxBroken.prefab
+        ...
+        ../Meshes/
+            Box.fbx
+            Box@broken.fbx
+            ...
+        ../Materials/
+            NormalBox.mat
+            BrokenBox.mat
+            ...
+        ../Textures/
+            Box_color.png
+            Box_normal.png
+            ...
+        ../Animation/
+            BoxAnimation.controller
+            Box_Broken.anim
+            ...
