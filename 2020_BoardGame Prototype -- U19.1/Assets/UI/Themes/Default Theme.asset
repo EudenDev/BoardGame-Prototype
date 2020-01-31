@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 806d2f8bd783e4793934443f2f6964f5, type: 3}
+  m_Name: Default Theme
+  m_EditorClassIdentifier: 
+  buttonSprite: {fileID: 0}
+  buttonSpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  defaultButton:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+  confirmButton:
+    color: {r: 0, g: 1, b: 0, a: 1}
+    sprite: {fileID: 0}
+  cancelButton:
+    color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: 0}
+  miniLabel:
+    font: {fileID: 0}
+    fontStyle: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    fontSize: 18
+  defaultLabel:
+    font: {fileID: 0}
+    fontStyle: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    fontSize: 24
+  headerLabel:
+    font: {fileID: 0}
+    fontStyle: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    fontSize: 42
+  titleLabel:
+    font: {fileID: 0}
+    fontStyle: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+    fontSize: 48
+  littlePanel:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+  bigPanel:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}
+  linesPanel:
+    color: {r: 1, g: 1, b: 1, a: 1}
+    sprite: {fileID: 0}

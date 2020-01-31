@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Load Screen [OpenClose]
+  m_Controller: {fileID: 9100000, guid: 61465a69bce454dff921c4525bc08d2e, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3043038eb44464b5ea6bf3c528dc781f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d38839b91c8e24379b7eccf3a28a472f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: af03f44a9e3dd414aa63a422d43993e0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c7bda473b50df488f90cca1717ee0776, type: 2}

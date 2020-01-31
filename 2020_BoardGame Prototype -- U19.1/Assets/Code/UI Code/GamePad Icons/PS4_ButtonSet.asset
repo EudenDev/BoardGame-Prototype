@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f58e71ba2d8b412f80810c9f2f33c0e, type: 3}
+  m_Name: PS4_ButtonSet
+  m_EditorClassIdentifier: 
+  ActionRight: {fileID: 21300000, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionLeft: {fileID: 21300004, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionDown: {fileID: 21300002, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionUp: {fileID: 21300006, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionRightDown: {fileID: 21300008, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionDownLeft: {fileID: 21300010, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionLeftUp: {fileID: 21300012, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  ActionUpRight: {fileID: 21300012, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  LeftTrigger1: {fileID: 21300020, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  RightTrigger1: {fileID: 21300022, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  LeftTrigger2: {fileID: 21300028, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  RightTrigger2: {fileID: 21300030, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  AnalogLeft_Press: {fileID: 21300034, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  AnalogRight_Press: {fileID: 21300038, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  AnalogRight: {fileID: 21300036, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  AnalogLeft: {fileID: 21300032, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  DPadRight: {fileID: 21300040, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  DPadLeft: {fileID: 21300044, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  DPadUp: {fileID: 21300046, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  DPadDown: {fileID: 21300042, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  Start: {fileID: 21300052, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
+  Select: {fileID: 21300054, guid: e08e577aad2a04367936755ddd28dce4, type: 3}
