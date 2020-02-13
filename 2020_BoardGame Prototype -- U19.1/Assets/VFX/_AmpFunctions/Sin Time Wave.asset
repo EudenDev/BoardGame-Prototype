@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Sin Time Wave
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=15700\n311;93;1158;585;660.0823;284.2567;1.03374;True;False\nNode;AmplifyShaderEditor.CommentaryNode;1;-347.413,-133.7173;Float;False;857.0734;297.559;Sinus
+    in time;6;0;8;5;4;7;3;SinTime;1,1,1,1;0;0\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;5;215.6599,-10.68313;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0.5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;8;21.10148,79.0012;Float;False;Amplitude;1;1;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SinOpNode;4;58.73695,-48.24787;Float;False;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleTimeNode;3;-133.9516,-68.8148;Float;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;7;-326.9895,-7.251553;Float;False;PeriodSize;1;0;False;1;0;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;384.4824,25.52863;Float;False;True;t;0;True;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;5;0;4;0\nWireConnection;5;1;8;0\nWireConnection;4;0;3;0\nWireConnection;3;0;7;0\nWireConnection;0;0;5;0\nASEEND*/\n//CHKSM=14D63A62A856B033B749C2BDF69D8DA258EF98CE"
+  m_functionName: 
+  m_description: Similar to SinTime adds control over amplitude and longitude of sine
+    wave
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 13
+  m_customNodeCategory: 
+  m_previewPosition: 0

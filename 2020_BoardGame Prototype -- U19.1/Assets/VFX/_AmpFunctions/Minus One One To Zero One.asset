@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b2425a2284af743826c689403a4924, type: 3}
+  m_Name: Minus One One To Zero One
+  m_EditorClassIdentifier: 
+  m_functionInfo: "// Made with Amplify Shader Editor\n// Available at the Unity Asset
+    Store - http://u3d.as/y3X \n/*ASEBEGIN\nVersion=16400\n468;580;788;375;1349.102;270.5657;1.323159;True;False\nNode;AmplifyShaderEditor.SimpleMultiplyOpNode;3;-317.0702,-70.43235;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;0.5;False;1;FLOAT;0\nNode;AmplifyShaderEditor.SimpleAddOpNode;4;-698.561,-119.9767;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;1;False;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionInput;1;-962.4653,-141.7985;Float;False;input;1;0;True;1;0;FLOAT;0;False;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;5;-917.4683,-16.69181;Float;False;Constant;_Float0;Float
+    0;0;0;Create;True;0;0;False;0;1;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.RangedFloatNode;6;-567.8823,123.3455;Float;False;Constant;_Float1;Float
+    1;0;0;Create;True;0;0;False;0;0.5;0;0;0;0;1;FLOAT;0\nNode;AmplifyShaderEditor.FunctionOutput;0;0,0;Float;False;True;;0;False;1;0;FLOAT;0;False;1;FLOAT;0\nWireConnection;3;0;4;0\nWireConnection;3;1;6;0\nWireConnection;4;0;1;0\nWireConnection;4;1;5;0\nWireConnection;0;0;3;0\nASEEND*/\n//CHKSM=73AACA596787B645DADB735CFDDC16216306030E"
+  m_functionName: 
+  m_description: 'Brings a -1...1 range to 0...1 range.
+
+    * For reverse operation use "Zero One To Minus One One" function.'
+  m_additionalIncludes:
+    m_additionalIncludes: []
+    m_outsideIncludes: []
+  m_additionalPragmas:
+    m_additionalPragmas: []
+    m_outsidePragmas: []
+  m_additionalDirectives:
+    m_validData: 0
+    m_isDirty: 0
+    m_moduleName: ' Additional Directives'
+    m_independentModule: 1
+    m_additionalDirectives: []
+    m_shaderFunctionDirectives: []
+    m_nativeDirectives: []
+    m_nativeDirectivesFoldout: 0
+    m_directivesSaveItems: []
+  m_nodeCategory: 7
+  m_customNodeCategory: 
+  m_previewPosition: 0
+  m_hidden: 0
