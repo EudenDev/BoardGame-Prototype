@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+[CreateAssetMenu]
 public class DiceDefinition : ScriptableObject
 {
     [Tooltip("Defines what each face gets you")]

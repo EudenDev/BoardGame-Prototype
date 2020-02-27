@@ -12,6 +12,7 @@ public class AudioManager : Singleton<AudioManager>
 
     [Header("Game UI SE")]
     public AudioSource UI_SE_Source;
+    [Space]
     public AudioClip StartSE;
     public AudioClip SelectSE;
     public AudioClip PressSE;
