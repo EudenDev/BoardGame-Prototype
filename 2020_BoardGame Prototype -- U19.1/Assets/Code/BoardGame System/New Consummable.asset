@@ -4,11 +4,12 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d5d3d9a83d83454cbfd93f80ff3ec68, type: 3}
-  m_Name: Main
+  m_Script: {fileID: 11500000, guid: 0e331102076584aa58ed5c4b92ad7dd0, type: 3}
+  m_Name: New Consummable
   m_EditorClassIdentifier: 
-  description: 
+  intValue: 0

@@ -101,12 +101,13 @@ Material:
     - _DstBlend: 0
     - _FRACTDEBUG: 0
     - _Float0: 0.5
-    - _Float1: 0.5
+    - _Float1: 1.8235277
     - _Fuzziness: 0.091
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HUE: 0.766
+    - _Horizonpower: 12
     - _Lin: 0.69
     - _Max: 1
     - _Metallic: 0
@@ -119,27 +120,27 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunRadius: 0.05
+    - _SunRadius: 0.10588236
     - _ToggleSwitch0: 0
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _BottomColor2: {r: 0.10760052, g: 0.35243264, b: 0.735849, a: 1}
+    - _BottomColor2: {r: 0.10760046, g: 0.35243258, b: 0.735849, a: 1}
     - _CloudColorDay: {r: 0.495283, g: 0.80648166, b: 1, a: 1}
     - _CloudColorDayMain: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
-    - _CloudsColor1: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudsColor2: {r: 0.10239408, g: 0.2516221, b: 0.5566037, a: 1}
+    - _CloudsColor1: {r: 0.8915094, g: 0.99168813, b: 1, a: 1}
+    - _CloudsColor2: {r: 0.10239402, g: 0.25162205, b: 0.5566037, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.09198114, g: 0.2529182, b: 0.5, a: 1}
     - _Color2: {r: 0.08640971, g: 0.04966174, b: 0.33962256, a: 1}
     - _DayBottomColor: {r: 0.48584896, g: 0.951307, b: 1, a: 1}
     - _DayBottomColor1: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 1}
-    - _DayTopColor: {r: 0.070754506, g: 0.5578593, b: 1, a: 1}
+    - _DayTopColor: {r: 0.07075446, g: 0.5578593, b: 1, a: 1}
     - _DayTopColor1: {r: 0.41636506, g: 0.18614274, b: 0.8396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HorizonColorDay: {r: 0.7821289, g: 0.97325975, b: 0.9811321, a: 1}
-    - _HorizonColorNight: {r: 0.109024554, g: 0.27867144, b: 0.6603774, a: 1}
+    - _HorizonColorDay: {r: 0.7821288, g: 0.97325975, b: 0.9811321, a: 1}
+    - _HorizonColorNight: {r: 0.1090245, g: 0.27867138, b: 0.6603774, a: 1}
     - _Scroll_XYBase_ZWDistor: {r: 0.5, g: 0.2, b: 0, a: 0}
-    - _TopColor2: {r: 0.03844785, g: 0.10341855, b: 0.30188656, a: 1}
+    - _TopColor2: {r: 0.03844785, g: 0.10341849, b: 0.3018865, a: 1}
