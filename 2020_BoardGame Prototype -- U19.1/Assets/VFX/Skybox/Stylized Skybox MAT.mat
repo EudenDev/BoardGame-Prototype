@@ -142,6 +142,6 @@ Material:
     - _DayTopColor1: {r: 0.41636506, g: 0.18614274, b: 0.8396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HorizonColorDay: {r: 0.7821288, g: 0.97325975, b: 0.9811321, a: 1}
-    - _HorizonColorNight: {r: 0.10902441, g: 0.2786713, b: 0.6603774, a: 1}
+    - _HorizonColorNight: {r: 0.10902438, g: 0.27867126, b: 0.6603774, a: 1}
     - _Scroll_XYBase_ZWDistor: {r: 0.5, g: 0.2, b: 0, a: 0}
     - _TopColor2: {r: 0.03844785, g: 0.1034184, b: 0.3018864, a: 1}
