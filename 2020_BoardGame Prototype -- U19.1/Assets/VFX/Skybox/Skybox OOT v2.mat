@@ -94,7 +94,7 @@ Material:
     m_Floats:
     - _BumpScale: 1
     - _CloudCutOff: 0.398
-    - _CloudOpacity: 0.94
+    - _CloudOpacity: 0.62
     - _Cutoff: 0.5
     - _DEBUGMODE: 0
     - _DetailNormalMapScale: 1
@@ -107,9 +107,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HUE: 0.766
-    - _HaloExp: 2.38
-    - _HorizonOpacity: 1.69
-    - _HorizonPower: 6.71
+    - _HaloExp: 6
+    - _HorizonOpacity: 1.19
+    - _HorizonPower: 4.25
     - _Horizonpower: 12
     - _InvLerpMax: 1
     - _InvLerpMin: 0.5
@@ -134,14 +134,14 @@ Material:
     m_Colors:
     - _BottomColor2: {r: 0.1076004, g: 0.3524325, b: 0.735849, a: 1}
     - _BottomDay: {r: 0.6431373, g: 0.9607844, b: 0.972549, a: 1}
-    - _BottomNight: {r: 0.30588216, g: 0.42745087, b: 0.7019608, a: 1}
+    - _BottomNight: {r: 0, g: 0.31231996, b: 0.8207547, a: 1}
     - _BottomTwi: {r: 0.9647059, g: 0.7529413, b: 0.34117636, a: 1}
     - _CloudColorDay: {r: 0.495283, g: 0.80648166, b: 1, a: 1}
     - _CloudColorDayMain: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
     - _CloudsColor1: {r: 0.8915094, g: 0.9916881, b: 1, a: 1}
     - _CloudsColor2: {r: 0.1023939, g: 0.251622, b: 0.5566037, a: 1}
     - _CloudsDay: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudsNight: {r: 0, g: 0, b: 0, a: 1}
+    - _CloudsNight: {r: 0.027233876, g: 0.28577417, b: 0.6415094, a: 1}
     - _CloudsTwi: {r: 0.4528299, g: 0.22219706, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
@@ -156,7 +156,8 @@ Material:
     - _HorizonColorNight: {r: 0.2843983, g: 0.42016053, b: 0.7264151, a: 1}
     - _HorizonColorTwi: {r: 1, g: 0.749069, b: 0.231132, a: 1}
     - _Scroll_XYBase_ZWDistor: {r: 0.5, g: 0.2, b: 0, a: 0}
+    - _SunsetColor: {r: 0.8018868, g: 0.4295126, b: 0.23073156, a: 1}
     - _TopColor2: {r: 0.03844785, g: 0.1034184, b: 0.3018864, a: 1}
     - _TopDay: {r: 0, g: 0.5507969, b: 1, a: 1}
-    - _TopNight: {r: 0.13653466, g: 0.10893547, b: 0.4528299, a: 1}
+    - _TopNight: {r: 0, g: 0.054876275, b: 0.34905645, a: 1}
     - _TopTwi: {r: 0.95283, g: 0.7971212, b: 0.4629317, a: 1}
