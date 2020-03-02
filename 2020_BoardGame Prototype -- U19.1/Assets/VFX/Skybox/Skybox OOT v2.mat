@@ -7,11 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stylized Skybox MAT
-  m_Shader: {fileID: 4800000, guid: 6cde3666d0f0d4213b19793bafb3ba06, type: 3}
+  m_Name: Skybox OOT v2
+  m_Shader: {fileID: 4800000, guid: f80d1e0703ccc4dbfbe73a7cea59fbaa, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -107,7 +107,9 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HUE: 0.766
-    - _HaloExp: 1.823528
+    - _HaloExp: 0.82
+    - _HorizonOpacity: 1.69
+    - _HorizonPower: 6.71
     - _Horizonpower: 12
     - _Lin: 0.69
     - _Max: 1
@@ -126,18 +128,19 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     - __dirty: 0
+    - _horizonadd: 0
     m_Colors:
     - _BottomColor2: {r: 0.1076004, g: 0.3524325, b: 0.735849, a: 1}
-    - _BottomDay: {r: 0.6179245, g: 0.9881709, b: 1, a: 1}
-    - _BottomNight: {r: 0.30588233, g: 0.42745098, b: 0.7019608, a: 1}
-    - _BottomTwi: {r: 0.9647059, g: 0.75294125, b: 0.34117645, a: 1}
+    - _BottomDay: {r: 0.6431373, g: 0.9607844, b: 0.972549, a: 1}
+    - _BottomNight: {r: 0.30588228, g: 0.42745093, b: 0.7019608, a: 1}
+    - _BottomTwi: {r: 0.9647059, g: 0.75294125, b: 0.3411764, a: 1}
     - _CloudColorDay: {r: 0.495283, g: 0.80648166, b: 1, a: 1}
     - _CloudColorDayMain: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
     - _CloudsColor1: {r: 0.8915094, g: 0.9916881, b: 1, a: 1}
     - _CloudsColor2: {r: 0.1023939, g: 0.251622, b: 0.5566037, a: 1}
     - _CloudsDay: {r: 1, g: 1, b: 1, a: 1}
-    - _CloudsNight: {r: 0.11638466, g: 0.11027052, b: 0.39622638, a: 1}
-    - _CloudsTwi: {r: 0.45283014, g: 0.22219712, b: 0, a: 1}
+    - _CloudsNight: {r: 0, g: 0, b: 0, a: 1}
+    - _CloudsTwi: {r: 0.45283002, g: 0.22219706, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.09198114, g: 0.2529182, b: 0.5, a: 1}
@@ -147,11 +150,11 @@ Material:
     - _DayTopColor: {r: 0.07075439, g: 0.5578593, b: 1, a: 1}
     - _DayTopColor1: {r: 0.41636506, g: 0.18614274, b: 0.8396226, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HorizonColorDay: {r: 0.6853863, g: 0.9514062, b: 0.9622641, a: 1}
-    - _HorizonColorNight: {r: 0.28439832, g: 0.42016056, b: 0.7264151, a: 1}
-    - _HorizonColorTwi: {r: 1, g: 0.749069, b: 0.23113206, a: 1}
+    - _HorizonColorDay: {r: 0.5507298, g: 0.96883494, b: 0.9811321, a: 1}
+    - _HorizonColorNight: {r: 0.2843983, g: 0.42016053, b: 0.7264151, a: 1}
+    - _HorizonColorTwi: {r: 1, g: 0.749069, b: 0.231132, a: 1}
     - _Scroll_XYBase_ZWDistor: {r: 0.5, g: 0.2, b: 0, a: 0}
     - _TopColor2: {r: 0.03844785, g: 0.1034184, b: 0.3018864, a: 1}
-    - _TopDay: {r: 0.18396226, g: 0.68711543, b: 1, a: 1}
-    - _TopNight: {r: 0.13653475, g: 0.10893557, b: 0.45283014, a: 1}
+    - _TopDay: {r: 0, g: 0.5507969, b: 1, a: 1}
+    - _TopNight: {r: 0.13653469, g: 0.10893551, b: 0.45283002, a: 1}
     - _TopTwi: {r: 0.95283014, g: 0.7971212, b: 0.4629317, a: 1}
