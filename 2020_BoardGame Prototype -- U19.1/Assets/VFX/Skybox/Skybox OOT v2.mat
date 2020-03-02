@@ -107,7 +107,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HUE: 0.766
-    - _HaloExp: 0.82
+    - _HaloExp: 2.38
     - _HorizonOpacity: 1.69
     - _HorizonPower: 6.71
     - _Horizonpower: 12
@@ -134,15 +134,15 @@ Material:
     m_Colors:
     - _BottomColor2: {r: 0.1076004, g: 0.3524325, b: 0.735849, a: 1}
     - _BottomDay: {r: 0.6431373, g: 0.9607844, b: 0.972549, a: 1}
-    - _BottomNight: {r: 0.3058822, g: 0.4274509, b: 0.7019608, a: 1}
-    - _BottomTwi: {r: 0.9647059, g: 0.7529413, b: 0.3411764, a: 1}
+    - _BottomNight: {r: 0.30588216, g: 0.42745087, b: 0.7019608, a: 1}
+    - _BottomTwi: {r: 0.9647059, g: 0.7529413, b: 0.34117636, a: 1}
     - _CloudColorDay: {r: 0.495283, g: 0.80648166, b: 1, a: 1}
     - _CloudColorDayMain: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
     - _CloudsColor1: {r: 0.8915094, g: 0.9916881, b: 1, a: 1}
     - _CloudsColor2: {r: 0.1023939, g: 0.251622, b: 0.5566037, a: 1}
     - _CloudsDay: {r: 1, g: 1, b: 1, a: 1}
     - _CloudsNight: {r: 0, g: 0, b: 0, a: 1}
-    - _CloudsTwi: {r: 0.45283, g: 0.2221971, b: 0, a: 1}
+    - _CloudsTwi: {r: 0.4528299, g: 0.22219706, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.09198114, g: 0.2529182, b: 0.5, a: 1}
@@ -158,5 +158,5 @@ Material:
     - _Scroll_XYBase_ZWDistor: {r: 0.5, g: 0.2, b: 0, a: 0}
     - _TopColor2: {r: 0.03844785, g: 0.1034184, b: 0.3018864, a: 1}
     - _TopDay: {r: 0, g: 0.5507969, b: 1, a: 1}
-    - _TopNight: {r: 0.1365347, g: 0.1089355, b: 0.45283, a: 1}
-    - _TopTwi: {r: 0.9528301, g: 0.7971212, b: 0.4629317, a: 1}
+    - _TopNight: {r: 0.13653466, g: 0.10893547, b: 0.4528299, a: 1}
+    - _TopTwi: {r: 0.95283, g: 0.7971212, b: 0.4629317, a: 1}
