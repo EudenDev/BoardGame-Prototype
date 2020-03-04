@@ -97,7 +97,11 @@ public class PlayerMovement : MonoBehaviour
         if (OnGround || SnapToGround() || CheckStepsContacts())
         {
             stepsSinceLastGrounded = 0;
-            jumpPhase = 0;
+            if (stepsSinceLastGrounded > 1)
+            {
+                jumpPhase = 0;
+
+            }
             if (groundContactCount > 0)
             {
                 contactNormal.Normalize();
@@ -134,19 +138,39 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (OnGround || jumpPhase < maxAirJumps)
+        Vector3 jumpDirection;
+        if (OnGround)
         {
-            stepsSinceLastJump = 0;
-            jumpPhase++;
-            float jumpSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
-            float alignedSpeed = Vector3.Dot(velocity, contactNormal);
-            if (alignedSpeed > 0F)
-            {
-                jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0f);
-            }
-            velocity += contactNormal * jumpSpeed;
-
+            jumpDirection = contactNormal;
         }
+        else if (OnSteep)
+        {
+            jumpDirection = steepNormal;
+            jumpPhase = 0;
+        }
+        else if (maxAirJumps > 0 && jumpPhase <= maxAirJumps)
+        {
+            if (jumpPhase == 0)
+            {
+                jumpPhase = 1;
+            }
+            jumpDirection = contactNormal;
+        }
+        else
+        {
+            return;
+        }
+        stepsSinceLastJump = 0;
+        jumpPhase++;
+        float jumpSpeed = Mathf.Sqrt(-2f * Physics.gravity.y * jumpHeight);
+        jumpDirection = (jumpDirection + Vector3.up).normalized;
+        float alignedSpeed = Vector3.Dot(velocity, jumpDirection);
+        if (alignedSpeed > 0F)
+        {
+            jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0f);
+        }
+        velocity += jumpDirection * jumpSpeed;
+
     }
 
     bool SnapToGround()
