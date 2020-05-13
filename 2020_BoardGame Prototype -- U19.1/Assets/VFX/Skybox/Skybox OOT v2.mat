@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Skybox OOT v2
   m_Shader: {fileID: 4800000, guid: f80d1e0703ccc4dbfbe73a7cea59fbaa, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _CLOUDS_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -95,6 +95,7 @@ Material:
     - _BumpScale: 1
     - _CloudCutOff: 0.398
     - _CloudOpacity: 0.62
+    - _Clouds: 1
     - _Cutoff: 0.5
     - _DEBUGMODE: 0
     - _DetailNormalMapScale: 1
@@ -125,7 +126,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _SunRadius: 0.1058824
+    - _SunRadius: 0.983
     - _ToggleSwitch0: 0
     - _UVSec: 0
     - _ZWrite: 1
