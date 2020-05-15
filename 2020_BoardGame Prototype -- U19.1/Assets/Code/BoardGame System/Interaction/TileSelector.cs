@@ -34,6 +34,17 @@ public class TileSelector : MonoBehaviour
             cursor.SetActive(true);
             cursor.transform.position =
                 boardGrid.PointFromGrid(gridPoint) + cursorOffset;
+            if (Input.GetMouseButtonDown(0))
+            {
+                BoardPiece selectedPiece =
+                    BoardManager.Main.PieceAtGrid(gridPoint);
+                if (BoardManager.Main.DoesPieceBelongToCurrentPlayer(selectedPiece))
+                {
+                    selectedPiece.Highlight();
+                    //BoardManager.Main.SelectPiece(selectedPiece);
+                    // Reference Point 1: add ExitState call here later
+                }
+            }
         }
         else
         {
