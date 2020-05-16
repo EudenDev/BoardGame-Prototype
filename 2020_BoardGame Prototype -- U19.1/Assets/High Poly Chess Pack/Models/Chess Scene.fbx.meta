@@ -1,175 +1,503 @@
 fileFormatVersion: 2
 guid: f5edbe7e601e05143b29e56c2de68b97
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bishop
-    100002: Bishop 1
-    100004: Bishop 1.001
-    100006: Bishop.001
-    100008: Bronze Pieces
-    100010: Chess Board
-    100012: Chess Board Surround
-    100014: Chess Board.001
-    100016: //RootNode
-    100018: King
-    100020: King.001
-    100022: Knight
-    100024: Knight.001
-    100026: Knight.002
-    100028: Knight.003
-    100030: Pawn
-    100032: Pawn.001
-    100034: Pawn.002
-    100036: Pawn.003
-    100038: Pawn.004
-    100040: Pawn.005
-    100042: Pawn.006
-    100044: Pawn.007
-    100046: Pawn.008
-    100048: Pawn.009
-    100050: Pawn.010
-    100052: Pawn.011
-    100054: Pawn.012
-    100056: Pawn.013
-    100058: Pawn.014
-    100060: Pawn.015
-    100062: Queen
-    100064: Queen.001
-    100066: Rook
-    100068: Rook 1
-    100070: Rook 1.001
-    100072: Rook.001
-    100074: White Pieces.002
-    400000: Bishop
-    400002: Bishop 1
-    400004: Bishop 1.001
-    400006: Bishop.001
-    400008: Bronze Pieces
-    400010: Chess Board
-    400012: Chess Board Surround
-    400014: Chess Board.001
-    400016: //RootNode
-    400018: King
-    400020: King.001
-    400022: Knight
-    400024: Knight.001
-    400026: Knight.002
-    400028: Knight.003
-    400030: Pawn
-    400032: Pawn.001
-    400034: Pawn.002
-    400036: Pawn.003
-    400038: Pawn.004
-    400040: Pawn.005
-    400042: Pawn.006
-    400044: Pawn.007
-    400046: Pawn.008
-    400048: Pawn.009
-    400050: Pawn.010
-    400052: Pawn.011
-    400054: Pawn.012
-    400056: Pawn.013
-    400058: Pawn.014
-    400060: Pawn.015
-    400062: Queen
-    400064: Queen.001
-    400066: Rook
-    400068: Rook 1
-    400070: Rook 1.001
-    400072: Rook.001
-    400074: White Pieces.002
-    2100000: Glass Silver
-    2100002: Glass Amber
-    2100004: Chess Board
-    2100006: White Square
-    2100008: Black Square
-    2300000: Bishop
-    2300002: Bishop 1
-    2300004: Bishop 1.001
-    2300006: Bishop.001
-    2300008: Chess Board Surround
-    2300010: Chess Board.001
-    2300012: King
-    2300014: King.001
-    2300016: Knight
-    2300018: Knight.001
-    2300020: Knight.002
-    2300022: Knight.003
-    2300024: Pawn
-    2300026: Pawn.001
-    2300028: Pawn.002
-    2300030: Pawn.003
-    2300032: Pawn.004
-    2300034: Pawn.005
-    2300036: Pawn.006
-    2300038: Pawn.007
-    2300040: Pawn.008
-    2300042: Pawn.009
-    2300044: Pawn.010
-    2300046: Pawn.011
-    2300048: Pawn.012
-    2300050: Pawn.013
-    2300052: Pawn.014
-    2300054: Pawn.015
-    2300056: Queen
-    2300058: Queen.001
-    2300060: Rook
-    2300062: Rook 1
-    2300064: Rook 1.001
-    2300066: Rook.001
-    3300000: Bishop
-    3300002: Bishop 1
-    3300004: Bishop 1.001
-    3300006: Bishop.001
-    3300008: Chess Board Surround
-    3300010: Chess Board.001
-    3300012: King
-    3300014: King.001
-    3300016: Knight
-    3300018: Knight.001
-    3300020: Knight.002
-    3300022: Knight.003
-    3300024: Pawn
-    3300026: Pawn.001
-    3300028: Pawn.002
-    3300030: Pawn.003
-    3300032: Pawn.004
-    3300034: Pawn.005
-    3300036: Pawn.006
-    3300038: Pawn.007
-    3300040: Pawn.008
-    3300042: Pawn.009
-    3300044: Pawn.010
-    3300046: Pawn.011
-    3300048: Pawn.012
-    3300050: Pawn.013
-    3300052: Pawn.014
-    3300054: Pawn.015
-    3300056: Queen
-    3300058: Queen.001
-    3300060: Rook
-    3300062: Rook 1
-    3300064: Rook 1.001
-    3300066: Rook.001
-    4300000: King.001
-    4300002: Queen.001
-    4300004: Bishop.001
-    4300006: Knight.003
-    4300008: Rook.001
-    4300010: Pawn.015
-    4300012: Bishop 1
-    4300014: Knight.001
-    4300016: Rook 1
-    4300018: Pawn.007
-    4300020: Queen
-    4300022: King
-    4300024: Chess Board Surround
-    4300026: Chess Board.001
-    2186277476908879412: ImportLogs
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bishop
+  - first:
+      1: 100002
+    second: Bishop 1
+  - first:
+      1: 100004
+    second: Bishop 1.001
+  - first:
+      1: 100006
+    second: Bishop.001
+  - first:
+      1: 100008
+    second: Bronze Pieces
+  - first:
+      1: 100010
+    second: Chess Board
+  - first:
+      1: 100012
+    second: Chess Board Surround
+  - first:
+      1: 100014
+    second: Chess Board.001
+  - first:
+      1: 100016
+    second: //RootNode
+  - first:
+      1: 100018
+    second: King
+  - first:
+      1: 100020
+    second: King.001
+  - first:
+      1: 100022
+    second: Knight
+  - first:
+      1: 100024
+    second: Knight.001
+  - first:
+      1: 100026
+    second: Knight.002
+  - first:
+      1: 100028
+    second: Knight.003
+  - first:
+      1: 100030
+    second: Pawn
+  - first:
+      1: 100032
+    second: Pawn.001
+  - first:
+      1: 100034
+    second: Pawn.002
+  - first:
+      1: 100036
+    second: Pawn.003
+  - first:
+      1: 100038
+    second: Pawn.004
+  - first:
+      1: 100040
+    second: Pawn.005
+  - first:
+      1: 100042
+    second: Pawn.006
+  - first:
+      1: 100044
+    second: Pawn.007
+  - first:
+      1: 100046
+    second: Pawn.008
+  - first:
+      1: 100048
+    second: Pawn.009
+  - first:
+      1: 100050
+    second: Pawn.010
+  - first:
+      1: 100052
+    second: Pawn.011
+  - first:
+      1: 100054
+    second: Pawn.012
+  - first:
+      1: 100056
+    second: Pawn.013
+  - first:
+      1: 100058
+    second: Pawn.014
+  - first:
+      1: 100060
+    second: Pawn.015
+  - first:
+      1: 100062
+    second: Queen
+  - first:
+      1: 100064
+    second: Queen.001
+  - first:
+      1: 100066
+    second: Rook
+  - first:
+      1: 100068
+    second: Rook 1
+  - first:
+      1: 100070
+    second: Rook 1.001
+  - first:
+      1: 100072
+    second: Rook.001
+  - first:
+      1: 100074
+    second: White Pieces.002
+  - first:
+      4: 400000
+    second: Bishop
+  - first:
+      4: 400002
+    second: Bishop 1
+  - first:
+      4: 400004
+    second: Bishop 1.001
+  - first:
+      4: 400006
+    second: Bishop.001
+  - first:
+      4: 400008
+    second: Bronze Pieces
+  - first:
+      4: 400010
+    second: Chess Board
+  - first:
+      4: 400012
+    second: Chess Board Surround
+  - first:
+      4: 400014
+    second: Chess Board.001
+  - first:
+      4: 400016
+    second: //RootNode
+  - first:
+      4: 400018
+    second: King
+  - first:
+      4: 400020
+    second: King.001
+  - first:
+      4: 400022
+    second: Knight
+  - first:
+      4: 400024
+    second: Knight.001
+  - first:
+      4: 400026
+    second: Knight.002
+  - first:
+      4: 400028
+    second: Knight.003
+  - first:
+      4: 400030
+    second: Pawn
+  - first:
+      4: 400032
+    second: Pawn.001
+  - first:
+      4: 400034
+    second: Pawn.002
+  - first:
+      4: 400036
+    second: Pawn.003
+  - first:
+      4: 400038
+    second: Pawn.004
+  - first:
+      4: 400040
+    second: Pawn.005
+  - first:
+      4: 400042
+    second: Pawn.006
+  - first:
+      4: 400044
+    second: Pawn.007
+  - first:
+      4: 400046
+    second: Pawn.008
+  - first:
+      4: 400048
+    second: Pawn.009
+  - first:
+      4: 400050
+    second: Pawn.010
+  - first:
+      4: 400052
+    second: Pawn.011
+  - first:
+      4: 400054
+    second: Pawn.012
+  - first:
+      4: 400056
+    second: Pawn.013
+  - first:
+      4: 400058
+    second: Pawn.014
+  - first:
+      4: 400060
+    second: Pawn.015
+  - first:
+      4: 400062
+    second: Queen
+  - first:
+      4: 400064
+    second: Queen.001
+  - first:
+      4: 400066
+    second: Rook
+  - first:
+      4: 400068
+    second: Rook 1
+  - first:
+      4: 400070
+    second: Rook 1.001
+  - first:
+      4: 400072
+    second: Rook.001
+  - first:
+      4: 400074
+    second: White Pieces.002
+  - first:
+      21: 2100000
+    second: Glass Silver
+  - first:
+      21: 2100002
+    second: Glass Amber
+  - first:
+      21: 2100004
+    second: Chess Board
+  - first:
+      21: 2100006
+    second: White Square
+  - first:
+      21: 2100008
+    second: Black Square
+  - first:
+      23: 2300000
+    second: Bishop
+  - first:
+      23: 2300002
+    second: Bishop 1
+  - first:
+      23: 2300004
+    second: Bishop 1.001
+  - first:
+      23: 2300006
+    second: Bishop.001
+  - first:
+      23: 2300008
+    second: Chess Board Surround
+  - first:
+      23: 2300010
+    second: Chess Board.001
+  - first:
+      23: 2300012
+    second: King
+  - first:
+      23: 2300014
+    second: King.001
+  - first:
+      23: 2300016
+    second: Knight
+  - first:
+      23: 2300018
+    second: Knight.001
+  - first:
+      23: 2300020
+    second: Knight.002
+  - first:
+      23: 2300022
+    second: Knight.003
+  - first:
+      23: 2300024
+    second: Pawn
+  - first:
+      23: 2300026
+    second: Pawn.001
+  - first:
+      23: 2300028
+    second: Pawn.002
+  - first:
+      23: 2300030
+    second: Pawn.003
+  - first:
+      23: 2300032
+    second: Pawn.004
+  - first:
+      23: 2300034
+    second: Pawn.005
+  - first:
+      23: 2300036
+    second: Pawn.006
+  - first:
+      23: 2300038
+    second: Pawn.007
+  - first:
+      23: 2300040
+    second: Pawn.008
+  - first:
+      23: 2300042
+    second: Pawn.009
+  - first:
+      23: 2300044
+    second: Pawn.010
+  - first:
+      23: 2300046
+    second: Pawn.011
+  - first:
+      23: 2300048
+    second: Pawn.012
+  - first:
+      23: 2300050
+    second: Pawn.013
+  - first:
+      23: 2300052
+    second: Pawn.014
+  - first:
+      23: 2300054
+    second: Pawn.015
+  - first:
+      23: 2300056
+    second: Queen
+  - first:
+      23: 2300058
+    second: Queen.001
+  - first:
+      23: 2300060
+    second: Rook
+  - first:
+      23: 2300062
+    second: Rook 1
+  - first:
+      23: 2300064
+    second: Rook 1.001
+  - first:
+      23: 2300066
+    second: Rook.001
+  - first:
+      33: 3300000
+    second: Bishop
+  - first:
+      33: 3300002
+    second: Bishop 1
+  - first:
+      33: 3300004
+    second: Bishop 1.001
+  - first:
+      33: 3300006
+    second: Bishop.001
+  - first:
+      33: 3300008
+    second: Chess Board Surround
+  - first:
+      33: 3300010
+    second: Chess Board.001
+  - first:
+      33: 3300012
+    second: King
+  - first:
+      33: 3300014
+    second: King.001
+  - first:
+      33: 3300016
+    second: Knight
+  - first:
+      33: 3300018
+    second: Knight.001
+  - first:
+      33: 3300020
+    second: Knight.002
+  - first:
+      33: 3300022
+    second: Knight.003
+  - first:
+      33: 3300024
+    second: Pawn
+  - first:
+      33: 3300026
+    second: Pawn.001
+  - first:
+      33: 3300028
+    second: Pawn.002
+  - first:
+      33: 3300030
+    second: Pawn.003
+  - first:
+      33: 3300032
+    second: Pawn.004
+  - first:
+      33: 3300034
+    second: Pawn.005
+  - first:
+      33: 3300036
+    second: Pawn.006
+  - first:
+      33: 3300038
+    second: Pawn.007
+  - first:
+      33: 3300040
+    second: Pawn.008
+  - first:
+      33: 3300042
+    second: Pawn.009
+  - first:
+      33: 3300044
+    second: Pawn.010
+  - first:
+      33: 3300046
+    second: Pawn.011
+  - first:
+      33: 3300048
+    second: Pawn.012
+  - first:
+      33: 3300050
+    second: Pawn.013
+  - first:
+      33: 3300052
+    second: Pawn.014
+  - first:
+      33: 3300054
+    second: Pawn.015
+  - first:
+      33: 3300056
+    second: Queen
+  - first:
+      33: 3300058
+    second: Queen.001
+  - first:
+      33: 3300060
+    second: Rook
+  - first:
+      33: 3300062
+    second: Rook 1
+  - first:
+      33: 3300064
+    second: Rook 1.001
+  - first:
+      33: 3300066
+    second: Rook.001
+  - first:
+      43: 4300000
+    second: King.001
+  - first:
+      43: 4300002
+    second: Queen.001
+  - first:
+      43: 4300004
+    second: Bishop.001
+  - first:
+      43: 4300006
+    second: Knight.003
+  - first:
+      43: 4300008
+    second: Rook.001
+  - first:
+      43: 4300010
+    second: Pawn.015
+  - first:
+      43: 4300012
+    second: Bishop 1
+  - first:
+      43: 4300014
+    second: Knight.001
+  - first:
+      43: 4300016
+    second: Rook 1
+  - first:
+      43: 4300018
+    second: Pawn.007
+  - first:
+      43: 4300020
+    second: Queen
+  - first:
+      43: 4300022
+    second: King
+  - first:
+      43: 4300024
+    second: Chess Board Surround
+  - first:
+      43: 4300026
+    second: Chess Board.001
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -198,9 +526,11 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.2
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -208,27 +538,31 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -238,14 +572,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.002
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

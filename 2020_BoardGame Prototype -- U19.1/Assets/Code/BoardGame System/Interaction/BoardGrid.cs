@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BoardGrid : MonoBehaviour
+public class BoardGrid : Singleton<BoardGrid>
 {
     // :: Settings
     public Vector2 size = new Vector2(10f,10f);
@@ -14,7 +14,7 @@ public class BoardGrid : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         grid = GetComponentInChildren<Grid>();
         float cellSizeX = size.x / colums;
@@ -41,11 +41,11 @@ public class BoardGrid : MonoBehaviour
         int col = gridPoint.x;
         int row = gridPoint.y;
         //Debug.Log(gridPoint);
-        if (col > colums || row > rows)
-        {
-            Debug.Log("GridToPoint: Col or orw value larger than set up grid.");
-            return Vector3.zero;
-        }
+        //if (col > colums || row > rows)
+        //{
+        //    Debug.Log("GridToPoint: Col or orw value larger than set up grid.");
+        //    return Vector3.zero;
+        //}
         // return Center point
         return grid.CellToWorld(new Vector3Int(col, row, 0));
     }
@@ -53,6 +53,7 @@ public class BoardGrid : MonoBehaviour
     public Vector2Int GridFromPoint(Vector3 point)
     {
         Vector3Int p = grid.WorldToCell(point);
+        p.Clamp(Vector3Int.zero, new Vector3Int((int)colums, (int)rows, 0));
         //p.x = Mathf.Clamp(0, (int)colums - 1);
         //p.y = Mathf.Clamp(0, (int)rows - 1);
         return new Vector2Int(p.x, p.y);

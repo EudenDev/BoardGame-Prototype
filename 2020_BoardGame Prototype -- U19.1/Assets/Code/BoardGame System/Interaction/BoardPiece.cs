@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BoardPiece : MonoBehaviour
 {
-    public Vector2Int initialPosition;
+    public Vector2Int boardPosition;
     public BoardManager.Players ownerPlayer; // Set from Unity
 
     public Material selectionMaterial;

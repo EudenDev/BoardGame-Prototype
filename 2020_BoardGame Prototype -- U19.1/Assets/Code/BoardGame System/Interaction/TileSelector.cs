@@ -43,6 +43,7 @@ public class TileSelector : MonoBehaviour
                     selectedPiece.Highlight();
                     //BoardManager.Main.SelectPiece(selectedPiece);
                     // Reference Point 1: add ExitState call here later
+                    ExitState(selectedPiece);
                 }
             }
         }
@@ -50,5 +51,18 @@ public class TileSelector : MonoBehaviour
         {
             cursor.SetActive(false);
         }
+    }
+
+    public void EnterState()
+    {
+        enabled = true;
+    }
+
+    private void ExitState(BoardPiece movingPiece)
+    {
+        this.enabled = false;
+        cursor.SetActive(false);
+        MoveSelector move = GetComponent<MoveSelector>();
+        move.EnterState(movingPiece);
     }
 }

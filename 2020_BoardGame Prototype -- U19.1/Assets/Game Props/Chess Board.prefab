@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 8296172668984461333}
   - component: {fileID: 6052784399890067250}
   - component: {fileID: 6095021418216270661}
+  - component: {fileID: 2091636900}
   m_Layer: 0
-  m_Name: Checkers Board
+  m_Name: Chess Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -127,6 +128,25 @@ MonoBehaviour:
   size: {x: 10, y: 10}
   colums: 8
   rows: 8
+--- !u!114 &2091636900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584371379251764580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69116f42422c4bf3923820dae4ab74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorOffset: {x: 0.5, y: -0.5, z: 0.5}
+  moveLocationPrefab: {fileID: 3821863883741070974, guid: 95741dcbcd9024efe92b7caa2bad1427,
+    type: 3}
+  tileHighlightPrefab: {fileID: 3821863883741070974, guid: 95741dcbcd9024efe92b7caa2bad1427,
+    type: 3}
+  attackLocationPrefab: {fileID: 3821863883741070974, guid: 95741dcbcd9024efe92b7caa2bad1427,
+    type: 3}
 --- !u!1 &2954550497419636303
 GameObject:
   m_ObjectHideFlags: 0
